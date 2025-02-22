@@ -1,7 +1,63 @@
-* {
+*{
     margin: 0;
 }
 
-.body {
-    background-color: #1098ad;
+.heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: black;
+    margin : 10px;
+    padding: 10px;
+}
+.navbar ul {
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color :aliceblue;
+    display:flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+#basic {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid #444 ;
+    padding: 10px;
+    margin: 15px;
+}
+
+#posted{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#dif{
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 20px;
+}
+
+#relatedpost{
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+    margin: 15px;
+  }
+
+  table, td, th {
+    border: 1px solid;
+}
+
+#commentheader{
+    background-color: blue;
+}
+
+.usercomment{
+    margin:20px;
+
 }

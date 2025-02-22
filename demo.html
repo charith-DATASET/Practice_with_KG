@@ -10,83 +10,69 @@
 </head>
 
 <body>
-    <h1> The Code Magazine </h1>
-    <section class="Navigation">
+    <h1 class="heading"> 📘 The Code Magazine </h1>
+
+    <nav class="navbar">
         <ul>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Challenges</a>
-            </li>
-            <li>
-                <a href="#">Flexbox</a>
-            </li>
-            <li>
-                <a href="#">CSS Grid</a>
-            </li>
-            <li>
-                <a href="#"> Contact Us</a>
-            </li>
+
+            <li href="#">Blog</li>
+            <li href="#">Challenges</li>
+            <li href="#">Flexbox</li>
+            <li href="#">CSS Grid</li>
+            <li href="#">Contact Us</li>
+
+
         </ul>
-    </section>
+    </nav>
 
-    <h2> The Basic Language of the Web : HTML</h2>
+    <article>
 
-    <h5> Posted by <strong> CodeWithKG </strong> on Monday , FEB 16th 2025 </h5>
+        <header>
+            <h3 id="basic"> The Basic Language of the Web : HTML</h2>
+        </header>
 
-    <p> HTML consists of elements that describe different types off content...</p>
+        <p id="posted"> Posted by <strong> CodeWithKG </strong> on Monday , FEB 16th 2025 </p>
+        <p id="dif"> HTML consists of elements that describe different types off content...</p>
 
-    <section class="Related posts">
-        <h4> Related posts </h4>
-        <table>
-            <tr>
-                <th>Image </th>
-                <th> Title </th>
-                <th> Author </th>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./img/post-img.jpg " width=100px height=100px alt="image_here ">
-                </td>
-                <td>
-                    <a href="#"> How to Learn Web Development </a>
+        <h2 id="relatedpost"> Related posts </h2>
 
-                </td>
-                <td>
-                    <h4> Jonas Schem</h4>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <img src="./img/related-2.jpg " width="100px" height="100px" alt="image_here ">
-                </td>
-                <td>
-                    <a href="#"> How to Learn Web Development </a>
-
-                </td>
-                <td>
-                    <h4> Jum Dillon </h4>
-                </td>
-            </tr>
-        </table>
-    </section>
-
-    <section class="User Comments">
-
-        <h3> User Comments </h3>
         <form>
+            <table>
+                <tr>
+                    <th>Image </th>
+                    <th> Title </th>
+                    <th> Author </th>
+                </tr>
+                <tr>
+                    <td><img src="./img/post-img.jpg " width="100px" height="100px" alt="image_here "></td>
+                    <td> <a href="#"> How to Learn Web Development </a> </td>
+                    <td> Jonas Schem </td>
+                </tr>
+
+                <tr>
+                    <td><img src="./img/related-2.jpg " width= "100px" height ="100px" alt="image_here "> </td>
+                    <td> <a href="#"> The Unknown Powers of CSS</a> </td>
+                    <td> Jum Dillon </td>
+                </tr>
+            </table>
+        </form>
+
+
+        <h1 id=""commentheader"> User Comments </h1>
+
+        <div class="usercomment">
+
             <label for="User name"> Name : </label>
             <input type="text" id="User name" name="User name" required>
+
             <label for="Comment"> Comment : </label>
             <input type="text" id="Comment" name="Comment" required>
 
             <button type="submit"> Submit </button>
-        </form>
-    </section>
 
-    <h5> Copyright @2025 by The CodeWithKG.</h5>
+        </div>
+
+        <h5> Copyright @2025 by The CodeWithKG.</h5>
 </body>
 
 </html>
