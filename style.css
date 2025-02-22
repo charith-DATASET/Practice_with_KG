@@ -1,21 +1,22 @@
-*{
+* {
     margin: 0;
 }
 
-.heading{
+.heading {
     font-size: 50px;
     text-align: center;
 }
 
-.navbar{
+.navbar {
     background-color: black;
-    margin : 10px;
+    margin: 10px;
     padding: 10px;
 }
+
 .navbar ul {
-    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color :aliceblue;
-    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    display: flex;
     list-style: none;
     gap: 10px;
 
@@ -23,41 +24,48 @@
 
 #basic {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom: 2px solid #444 ;
+    border-bottom: 2px solid #444;
     padding: 10px;
     margin: 15px;
 }
 
-#posted{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#posted {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     margin: 20px;
 }
 
-#dif{
-    font-family :Arial, Helvetica, sans-serif;
+#dif {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     margin: 20px;
 }
 
-#relatedpost{
+#relatedpost {
     margin: 20px;
 }
+
 table {
     width: 100%;
-    border-collapse:collapse;
-    margin: 15px;
-  }
+    border-collapse: collapse;
+    margin: 20px;
+}
 
-  table, td, th {
+table,
+td,
+th {
     border: 1px solid;
 }
 
-#commentheader{
-    background-color: blue;
+.usercomment {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    padding: 10px;
+
 }
 
-.usercomment{
-    margin:20px;
-
+#commentheader{
+    font-family:
+    margin: 20px;
 }
